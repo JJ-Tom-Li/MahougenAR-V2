@@ -1,0 +1,5 @@
+1.解壓縮檔案
+2.開啟Unity hub->舊專案->選擇New Unity Project資料夾->開啟專案
+3.至https://developer.vuforia.com/downloads/sdk 下載unity sdk並import
+4.在unity視窗中，上方工具列選擇Window->Vuforia Configuration，在App License Key欄中輸入Vuforia License Key
+5.上方工具列選擇File->Build and Run，測試能否在手機上運作
