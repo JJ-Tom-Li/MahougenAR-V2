@@ -13,9 +13,15 @@
   AR: Vuforia Engine 9.3  
   Mobile OS: Android 10  
 # 實際運行影片 Demo  
-  (網址待補)  
+  https://youtu.be/JgkUkYMtJ2Q   
+  
+# 素材與其他package來源 Assets&other packages
+  http://moonwind.pw/material_graphics_fantasy.html#pageLink01 (主畫面背景圖片、魔法陣圖片)  
+  https://github.com/sseasycode/SSTools  (SSTools)  
+  https://forum.unity.com/threads/generating-sprites-dynamically-from-png-or-jpeg-files-in-c.343735/ (PNG to texture)   
+  
 # 參考資料 Reference
-  這個程式碼是從 https://github.com/pistatium/mahougen 修改而來，僅供學術研究使用，不會用在商業用途。
+  這個程式碼是從 https://github.com/pistatium/mahougen 修改而來，僅供個人學術研究使用，不會用在商業用途。
   
   This code is modified from https://github.com/pistatium/mahougen
   
@@ -26,10 +32,3 @@
   https://www.youtube.com/watch?v=km_kU-j7mcw   
   https://www.youtube.com/watch?v=Cm2l2GwIz30   
   If you have any question,please contact me by email: tom86311@gmail.com  
-  
-# 素材與其他package來源 Assets&other packages
-  http://moonwind.pw/material_graphics_fantasy.html#pageLink01 (主畫面背景圖片、魔法陣圖片)  
-  https://github.com/sseasycode/SSTools  (SSTools)  
-  https://forum.unity.com/threads/generating-sprites-dynamically-from-png-or-jpeg-files-in-c.343735/ (PNG to texture)   
-# 備註 Other
-  
