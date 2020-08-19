@@ -1,32 +1,35 @@
 # MahougenAR
-  修改MahougenAR-V2
-  可讓使用者簡單畫出魔法陣，再利用AR功能顯示在平面上。demo:https://youtu.be/fwx6muTiX64
-# 如何編譯專案?
-  將此專案下載至您的電腦，解壓縮後將專案資料夾放在Vuforia sdk的sample資料夾中，再用android studio 開啟。
-
-# Reference
+  可讓使用者簡單畫出魔法陣，再利用AR功能顯示在平面上。   
+  修改自 [MahougenAR](https://github.com/JJ-Tom-Li/MahougenAR)，使用Unity重新開發，並改善&新增功能。  
+# 如何編譯專案? Build
+  1. 解壓縮檔案
+  2. 開啟Unity hub->舊專案->選擇New Unity Project資料夾->開啟專案
+  3. 至https://developer.vuforia.com/downloads/sdk 下載unity sdk並import
+  4. 在unity視窗中，上方工具列選擇Window->Vuforia Configuration，在App License Key欄中輸入Vuforia License Key
+  5. 上方工具列選擇File->Build and Run，測試能否在手機上運作
+# 開發環境 Environment  
+  OS: Windows 10 Home
+  GameEngine: Unity ver2020.1.0f1  
+  AR: Vuforia Engine 9.3  
+  Mobile OS: Android 10  
+# 實際運行影片 Demo  
+  (網址待補)  
+# 參考資料 Reference
   這個程式碼是從 https://github.com/pistatium/mahougen 修改而來，僅供學術研究使用，不會用在商業用途。
   
   This code is modified from https://github.com/pistatium/mahougen
   
-  ONLY FOR EDUCATIONAL AND RESEARCH USE.WILL NOT BE USED IN COMMERCIAL.
-  https://blog.csdn.net/u014361280/article/details/91888091#%E4%BA%8C%E3%80%81%E5%9C%A8%20Android%20Studio%20%E5%8E%9F%E6%9C%89%E7%9A%84%E5%B7%A5%E7%A8%8B%E4%B8%8A%E5%AF%BC%E5%85%A5Unity%E5%B7%A5%E7%A8%8B%EF%BC%8CAndroid%20Studio%20%E7%9A%84%20MainActivity%20%E4%B8%BA%E4%B8%BB%E7%95%8C%E9%9D%A2%EF%BC%8CUnityActivity%20%E4%B8%BA%E8%B7%B3%E8%BD%AC%E7%95%8C%E9%9D%A2  
-  https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html  
-  https://www.jianshu.com/p/89372a431e86  
-  https://answers.unity.com/questions/1327186/how-to-get-intent-data-for-unity-to-use.html  
-  https://www.cnblogs.com/xtqqkss/p/6387271.html  
-  https://forum.unity.com/threads/unityplayeractivity-java-class-has-vanished.885472/  
-  http://moonwind.pw/material_graphics_fantasy.html#pageLink01  
+  ONLY FOR EDUCATIONAL AND PERSONAL RESEARCH. WILL NOT BE USED IN COMMERCIAL.  
+  https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html   
   https://www.youtube.com/watch?v=bi2tG3v4a9c  
   https://www.youtube.com/watch?v=Xl8xgmsrKwE  
-  https://www.youtube.com/watch?v=km_kU-j7mcw  
-  https://github.com/sseasycode/SSTools  
-  https://www.youtube.com/watch?v=Cm2l2GwIz30  
+  https://www.youtube.com/watch?v=km_kU-j7mcw   
+  https://www.youtube.com/watch?v=Cm2l2GwIz30   
+  If you have any question,please contact me by email: tom86311@gmail.com  
   
-  If you have any question,please contact me by email:
+# 素材與其他package來源 Assets&other packages
+  http://moonwind.pw/material_graphics_fantasy.html#pageLink01 (主畫面背景圖片、魔法陣圖片)  
+  https://github.com/sseasycode/SSTools  (SSTools)  
+  https://forum.unity.com/threads/generating-sprites-dynamically-from-png-or-jpeg-files-in-c.343735/ (PNG to texture)   
+# 備註 Other
   
-  tom86311@gmail.com
-  
-# Other
-  如果build有問題，請修改gradle內參數:
-   def VUFORIA_ENGINE = vuforia sdk 資料夾位置
